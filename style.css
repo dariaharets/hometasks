@@ -12,13 +12,16 @@ p {
 }
  #italic {
     font-style: italic;
+    font-size: 18px;
 }
 #bold {
     font-weight: bold;
+    font-size: 18px;
 }
 #blue {
     font-style: italic;
     color: blue;
+    font-size: 18px;
 }
 table {
     margin: auto;
@@ -34,6 +37,7 @@ img {
 }
 #lorem {
     color: blue;
+    font-size: 18.px;
 }
 footer {
     color: white;
