@@ -1,0 +1,42 @@
+header {
+    font-size: 50px;
+    color: white;
+    background-color: rgba(165, 42, 42, 1);
+    text-align: center;
+}
+ #sunset {
+     width: 100%;
+}
+p {
+    font-size: 20px;
+}
+ #italic {
+    font-style: italic;
+}
+#bold {
+    font-weight: bold;
+}
+#blue {
+    font-style: italic;
+    color: blue;
+}
+table {
+    margin: auto;
+    size: 50px;
+}
+td {
+    border-color: black;
+    border-style: dashed;
+    border-width: 3px;
+}
+img {
+    width: 100px;
+}
+#lorem {
+    color: blue;
+}
+footer {
+    color: white;
+    background-color: black;
+    text-align: center;
+}
