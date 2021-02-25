@@ -1,0 +1,59 @@
+body {
+    background-color: rgba(153, 9, 9, 1);
+}
+#title {
+    margin: 0 auto;
+    width: max-content;
+}
+table {
+    width: 100%;
+    background-color: black;
+    color: white;
+}
+tr {
+    width: 100%;
+}
+td {
+    padding-top: 20px;
+    width: 25%;
+    text-align: center;
+}
+.wrap {
+    display: flex;
+    width: 100%;
+}
+nav {
+    background-color: rgba(125, 9, 9, 1);
+    width: 20%;
+    color: rgba(233, 57, 11, 1);
+    text-decoration: underline;
+    
+    
+}
+.navig {
+    margin-top: 0px;
+    text-align: left;
+    font-size: 18px;
+}
+article {
+    color: white;
+    width: 70%;
+    font-size: 18px;
+    margin-left: 5px;
+}
+aside {
+    background-color: rgba(227, 221, 221, 1);
+    width: 20%;
+    font-size: 18px;
+    margin-left: 5px;
+}
+.title {
+    background-color:rgba(189, 189, 189, 1);
+    text-align: center;
+    font-size: 18px;
+}
+footer {
+    background-color: rgba(233, 91, 17, 1);
+    color: white;
+    text-align: center;
+}
