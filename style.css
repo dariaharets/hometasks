@@ -1,0 +1,54 @@
+body {
+    background-color: #fff;
+
+}
+.box {
+    height: 170px;
+    width: 225px;
+    margin-top: 60px;
+    justify-content: space-between;
+}
+.wrapper {
+    width: 100%;
+    color: black;
+    font-family: sans-serif;
+    font-size: 12px;
+    text-align: center;
+    height: 170px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.circle {
+    background-color: #2a69a6;
+    border-radius: 50%;
+    box-sizing: border-box;
+    height: 63px;
+    width: 63px;
+    margin: 0 auto;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.circle:hover {
+    background-color: #fff;
+    border: 1px solid #2a69a6;
+}
+.circle1 {
+    background-image: url(/Tablet.svg);
+
+}
+.circle2 {
+    background-image: url(/Settings.svg);
+}
+.circle3 {
+    background-image: url(/Dashboard.svg);
+}
+.circle1:hover {
+    background-image: url(/Tablet_active.svg);
+}
+.circle2:hover {
+    background-image: url(/Settings_active.svg);
+}
+.circle3:hover {
+    background-image: url(/Dashboard_active.svg);
+}
