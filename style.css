@@ -1,0 +1,75 @@
+body {
+    color: #999999;
+    height: 980px;
+    width: 100%;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    color: black;
+}
+.container {
+    margin: 170px auto;
+}
+.wrapper{
+    width: 535px;
+    height: 190px;
+    margin: 0 auto;
+}
+.title {
+    color: #0ec8cb;
+    font-size: 48px;
+}
+table {
+    width: 940px;
+    height: 420px;
+    background-color: #f7f7f7;
+    margin: 100px auto;
+}
+td {
+    border: 1px solid #ececec;
+}
+td article {
+    height: 70%;
+}
+p {
+    color: #9f9f9f;
+    font-size: 12px;
+    margin: 0 30px;
+}
+.icon {
+    height: 30%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#anchor {
+    background-image: url(/icons/Anchor-black.svg);
+
+}
+#diamond{
+    background-image: url(/icons/Diamond-black.svg);
+}
+#glasses{
+    background-image: url(/icons/Eyeglasses-black.svg);
+
+}
+#monitor{
+    background-image: url(/icons/Monitor-black.svg);
+}
+td:hover {
+    background-color: #0ec8cb;
+    color: #fff;
+}
+td:hover p {
+   color: white;
+}
+td:hover #anchor {
+    background-image:url(/icons/Anchor-white.svg);
+}
+td:hover #glasses {
+    background-image:url(/icons/Eyeglasses-white.svg);
+}
+td:hover #monitor {
+    background-image:url(/icons/Monitor-white.svg);
+}
+td:hover #diamond {
+    background-image:url(/icons/Diamond-white.svg);
+}
